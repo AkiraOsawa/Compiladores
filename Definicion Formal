@@ -1,0 +1,19 @@
+Definicion Formal
+
+<Programa> := <Funciones> ^ <Principal>
+<Funciones> := <Instrucciones> 'fin'
+<Principal> := <Instrucciones> 'fin'
+<Instrucciones> := [<Expresiones> | <Declaraciones> | <Estructuras_Control> | <Instrucciones> | <Asignación>] '#'
+<Expresiones> := <Termino> <Operadores> <Termino>
+<Operadores> := <Operador_Aritmético> | <Operador_Lógico> | <Operador_relacional>
+<Operador_Aritmético> := '+' | '-' | '* '| '/' | '%'
+<Operador_Lógicos> := 'and' | 'or' | 'not'
+<Operador_Relacional> := '<' | '>' | '>=' | '<=' | '==' | '!='
+<Asignación> := <Termino> '=' <Termino>
+<Termino> := <Número> | <Identificador>
+<Número> := '0' | '1' | … | '9'
+<Identificador> := <Letra_Min> [<Letras> | <Número> | '_' | <Identificador>]
+<Letras> := <Letra_Min> | <Letra_May>
+<Letra_Min> := 'a' | 'b' | … | 'z'
+<Letra_May> := 'A' | 'B' | … | 'Z'
+<Declaración> := <Tipo_Dato> <>
