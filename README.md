@@ -1,20 +1,34 @@
 # Compiladores
 
 1.	Introducción
+
 1.1.	Origen del Compilador. LISTO
+
 1.2.	Objetivo. LISTO
+
 1.3.	Recursos Software y Hardware. LISTO
+
 1.4.	Área de Aplicación. LISTO
 
-2.	Estructura General 
+
+2.	Estructura General
+
 2.1.	Definición Informal LISTO
+
       Definicion Formal 
+      
 2.2.	Estructura General de SCANNER
+
 2.3.	Estructura de PARSER
+
 2.4.	Arquitectura CISC
+
 2.5.	Código Intermedio
+
 2.6.	Optimización de Código
+
 2.7.	Ensamblador y Carga
+
 
 
 3.	El SCANNER
