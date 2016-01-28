@@ -16,5 +16,5 @@ Definicion Formal
 <Letras> := <Letra_Min> | <Letra_May>
 <Letra_Min> := 'a' | 'b' | … | 'z'
 <Letra_May> := 'A' | 'B' | … | 'Z'
-<Declaración> := <Tipo_Dato> '=' <Identificador>
+<Declaración> := <Tipo_Dato> <Identificador>
 <Tipo_Dato> := ['entero'|'real'|'car'|'bool'|'vacio']
