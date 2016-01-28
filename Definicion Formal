@@ -17,3 +17,12 @@ Definicion Formal
 <Letra_Min> := 'a' | 'b' | … | 'z'
 <Letra_May> := 'A' | 'B' | … | 'Z'
 <Declaración> := <Tipo_Dato> <>
+
+<Estructura_de_Control>::= si "(" <Expresiones_Logicas> ")" <Instrucciones>
+                         | si "(" <Expresiones_Logicas> ")" <Instrucciones> else <Instrucciones>
+                         | evalua "(" <Expresiones_Logicas> ")" <Instrucciones>
+                         
+  <labeled-statement> ::= <identifier> : <statement>
+                      | caso <constant-expression> : <statement>
+                      | otro : <statement>
+
