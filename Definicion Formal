@@ -20,5 +20,5 @@ Definicion Formal
 <Tipo_Dato> := ['entero'|'real'|'car'|'bool'|'vacio']
 
 <Estructura_de_Control>::= si "(" <Expresiones_Logicas> ")" <Instrucciones>
-                           | si "(" <Expresiones_Logicas> ")" <Instrucciones> else <Instrucciones>
+                           | si "(" <Expresiones_Logicas> ")" <Instrucciones> sino <Instrucciones>
                            | evalua "(" <Expresiones_Logicas> ")" <Instrucciones>
