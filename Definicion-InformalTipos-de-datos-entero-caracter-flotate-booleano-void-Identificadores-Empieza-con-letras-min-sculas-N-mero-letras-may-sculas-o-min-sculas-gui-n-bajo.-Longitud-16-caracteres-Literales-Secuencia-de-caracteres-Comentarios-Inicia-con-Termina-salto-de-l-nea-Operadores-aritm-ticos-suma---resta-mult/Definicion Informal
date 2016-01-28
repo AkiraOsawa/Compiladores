@@ -1,0 +1,54 @@
+Tipos de datos				entero
+							        caracter
+							        flotate
+							        booleano
+							        void
+
+Identificadores				Empieza con letras minúsculas
+							        Número, letras (mayúsculas o minúsculas), guión bajo.
+							        Longitud 16 caracteres
+					
+Literales					    Secuencia de caracteres
+
+Comentarios					  Inicia con $
+							        Termina salto de línea
+
+Operadores aritméticos		+ suma
+							            - resta
+            							* mult
+            							/ div
+            							% mod
+							
+Operadores relacionales		<	menor
+            							>	mayor
+            							>=	mayor o igual
+            							<=	menor o igual
+            							==	equivalente
+            							!=	difenrete
+
+Operador de asignación		=	asignación
+								
+Operadores lógicos			and
+          							or
+          							not	
+
+Entrada y salida			leer (identificadores)
+							        escribir (identificadores y expresiónes)
+							
+Expresiónes					  Construcción INFIX
+							        Contiene identificadoresm literales, operandos y paréntesis.
+							
+Delimitadores de programas	inicio
+							              fin
+							
+Terminador					# Termina instrucciónes
+
+Control						  si				(if)
+							      sino			(else)
+							      evalua	  caso otro	(switch	case)
+							      repite		(loop)
+							
+Definicion de funciones		Para funcion principal	principal
+							            Para demás funciónes	func tipo_retorno nombre_funcion(parametros)
+														
+							
