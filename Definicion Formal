@@ -18,3 +18,7 @@ Definicion Formal
 <Letra_May> := 'A' | 'B' | … | 'Z'
 <Declaración> := <Tipo_Dato> <Identificador>
 <Tipo_Dato> := ['entero'|'real'|'car'|'bool'|'vacio']
+
+<Estructura_de_Control>::= si "(" <Expresiones_Logicas> ")" <Instrucciones>
+                           | si "(" <Expresiones_Logicas> ")" <Instrucciones> else <Instrucciones>
+                           | evalua "(" <Expresiones_Logicas> ")" <Instrucciones>
